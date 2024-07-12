@@ -1,0 +1,2 @@
+include gptdbs.toml
+include awel_flow_web_info_search/definition/*.json

@@ -1,0 +1,2 @@
+include gptdbs.toml
+include andrewyng_translation_agent/definition/*.json
