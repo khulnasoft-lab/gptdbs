@@ -37,10 +37,10 @@ gptdb app list-remote
 ┏━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃       Repository ┃ Type      ┃                            Name ┃
 ┡━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
-│ khulnasoft/gptdbs │ operators │            awel-simple-operator │
-│ khulnasoft/gptdbs │ workflow  │          awel-flow-example-chat │
-│ khulnasoft/gptdbs │ workflow  │ awel-flow-simple-streaming-chat │
-│ khulnasoft/gptdbs │ workflow  │       awel-flow-web-info-search │
+│ khulnasoft-lab/gptdbs │ operators │            awel-simple-operator │
+│ khulnasoft-lab/gptdbs │ workflow  │          awel-flow-example-chat │
+│ khulnasoft-lab/gptdbs │ workflow  │ awel-flow-simple-streaming-chat │
+│ khulnasoft-lab/gptdbs │ workflow  │       awel-flow-web-info-search │
 │  fangyinc/gptdbs │ workflow  │          awel-flow-example-chat │
 │  fangyinc/gptdbs │ workflow  │ awel-flow-simple-streaming-chat │
 │     local/gptdbs │ operators │            awel-simple-operator │
@@ -66,8 +66,8 @@ gptdb app list
 ┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
 │          awel-flow-example-chat │ flow     │ aries-ckt/gptdbs │          ~/.gptdbs/packages/b8bc19cefb00ae87d6586109725f15a1/awel-flow-example-chat │
 │      awel-flow-rag-chat-example │ flow     │ aries-ckt/gptdbs │      ~/.gptdbs/packages/b8bc19cefb00ae87d6586109725f15a1/awel-flow-rag-chat-example │
-│ awel-flow-simple-streaming-chat │ flow     │ khulnasoft/gptdbs │ ~/.gptdbs/packages/b8bc19cefb00ae87d6586109725f15a1/awel-flow-simple-streaming-chat │
-│       awel-flow-web-info-search │ flow     │ khulnasoft/gptdbs │       ~/.gptdbs/packages/b8bc19cefb00ae87d6586109725f15a1/awel-flow-web-info-search │
+│ awel-flow-simple-streaming-chat │ flow     │ khulnasoft-lab/gptdbs │ ~/.gptdbs/packages/b8bc19cefb00ae87d6586109725f15a1/awel-flow-simple-streaming-chat │
+│       awel-flow-web-info-search │ flow     │ khulnasoft-lab/gptdbs │       ~/.gptdbs/packages/b8bc19cefb00ae87d6586109725f15a1/awel-flow-web-info-search │
 │    awel-list-to-string-operator │ operator │ local/gptdbs     │    ~/.gptdbs/packages/b8bc19cefb00ae87d6586109725f15a1/awel-list-to-string-operator │
 │       rag-url-knowledge-example │ flow     │ local/gptdbs     │       ~/.gptdbs/packages/b8bc19cefb00ae87d6586109725f15a1/rag-url-knowledge-example │
 └─────────────────────────────────┴──────────┴──────────────────┴─────────────────────────────────────────────────────────────────────────────────────┘
@@ -196,7 +196,7 @@ Commands:
 
 **A repository is a collection of gptdbs.**
 
-The `gptdbs` can manage by multiple repositories, the official repository is [khulnasoft/gptdbs](https://github.com/khulnasoft-lab/gptdbs).
+The `gptdbs` can manage by multiple repositories, the official repository is [khulnasoft-lab/gptdbs](https://github.com/khulnasoft-lab/gptdbs).
 
 And you can add you own repository by `gptdb repo add --repo <repo_name> --url <repo_url>`, example:
 - Your git repo: `gptdb repo add --repo fangyinc/gptdbs --url https://github.com/fangyinc/gptdbs.git`
