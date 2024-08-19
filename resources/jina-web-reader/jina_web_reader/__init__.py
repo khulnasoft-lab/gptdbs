@@ -1,7 +1,8 @@
 """A tool for searching and crawling the web using Jina."""
 
-import aiohttp
 import os
+
+import aiohttp
 from gptdb.agent.resource import tool
 from typing_extensions import Annotated, Doc
 
