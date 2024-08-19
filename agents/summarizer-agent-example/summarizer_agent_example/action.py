@@ -1,10 +1,6 @@
 from typing import Optional
-from gptdb.agent import (
-    Action,
-    ActionOutput,
-    AgentResource,
-    ResourceType,
-)
+
+from gptdb.agent import Action, ActionOutput, AgentResource, ResourceType
 from gptdb.agent.util import cmp_string_equal
 from gptdb.vis import Vis
 from pydantic import BaseModel, Field

@@ -8,11 +8,11 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-tomlkit = "^0.13.0"
+tomlkit = "^0.12.4"
 gptdb = {extras = ["cli"], version = "^0.5.2"}
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^8.0.0"
+pytest = "^7.4"
 pytest-asyncio = "^0.23.0"
 
 [build-system]

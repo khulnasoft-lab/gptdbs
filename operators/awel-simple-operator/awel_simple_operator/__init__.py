@@ -1,7 +1,7 @@
 """awel-simple-operator operator package"""
 
 from gptdb.core.awel import MapOperator
-from gptdb.core.awel.flow import ViewMetadata, OperatorCategory, IOField, Parameter
+from gptdb.core.awel.flow import IOField, OperatorCategory, Parameter, ViewMetadata
 
 
 class SimpleHelloWorldOperator(MapOperator[str, str]):

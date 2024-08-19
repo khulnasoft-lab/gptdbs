@@ -1,0 +1,2 @@
+include gptdbs.toml
+include awel_flow_rag_summary_example/definition/*.json
